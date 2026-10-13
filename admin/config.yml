@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: tu-usuario-de-github/nombre-de-tu-repositorio
+  branch: main
+
+media_folder: "videos"
+public_folder: "videos"
+
+collections:
+  - name: "portafolio"
+    label: "Mis Videos"
+    folder: "content/videos"
+    create: true
+    fields:
+      - {label: "Sube tu video aquí", name: "video", widget: "file"}

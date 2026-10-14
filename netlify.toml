@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+  command = ""
+
+[identity]
+
+[git_gateway]
+  branch = "main"
+
+[context.production.environment]
+  # Forzamos la conexión con tu repositorio exacto de GitHub
+  REPO_PATH = "dagarciaa01/Davs-Editor"
